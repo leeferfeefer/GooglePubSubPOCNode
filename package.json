@@ -1,0 +1,22 @@
+{
+  "name": "googlepubsubpocnode",
+  "version": "1.0.0",
+  "description": "Use of Google PubSub in Node JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leeferfeefer/GooglePubSubPOCNode.git"
+  },
+  "author": "Dan Fincher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leeferfeefer/GooglePubSubPOCNode/issues"
+  },
+  "homepage": "https://github.com/leeferfeefer/GooglePubSubPOCNode#readme",
+  "dependencies": {
+    "@google-cloud/pubsub": "^2.8.0"
+  }
+}
