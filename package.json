@@ -2,9 +2,12 @@
   "name": "googlepubsubpocnode",
   "version": "1.0.0",
   "description": "Use of Google PubSub in Node JS",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publisher": "node publisher.js",
+    "subscriber1": "node subscriber1.js",
+    "subscriber2": "node subscriber2.js"
   },
   "repository": {
     "type": "git",
